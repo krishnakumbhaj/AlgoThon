@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-
 import price1 from '../images/price1.png';
 import price2 from '../images/price2.png';
 import price3 from '../images/price3.png';
@@ -47,24 +46,25 @@ const page = () => {
                     <p className="text-xl mt-4 px-12 py-3 text-gray-500">
                       Compete in AlgoThon, solve DSA challenges, win prizes, and learn FetchAI insights from Mr. Dev Chauhan. Join us!
                     </p>
-                    <Link href="#about" className="btn btn-primary bg-[#3468ec] font-mono  text-white hover:bg-[#3468ec] ml-12 rounded-full px-6 py-3 mt-4">
+                    <Link href="#about" className="btn btn-primary bg-[#3468ec] font-mono  text-white hover:bg-[#3468ec] ml-12 rounded-full md:px-6 px-3 py-3 mt-4">
                       Explore More
                     </Link>
-                    <button className="btn btn-primary border-2 border-[#3468ec] font-mono ml-4 text-black hover:bg-[#3468ec] hover:text-white rounded-full px-6 py-3 mt-4">
+                    <button className="btn border-2 border-[#3468ec] font-mono ml-4 text-black hover:bg-[#3468ec] hover:text-white rounded-full md:px-6 py-3 px-2  mt-4">
                       Register
                       {/* <IoMdArrowForward /> */}
                     </button>
+                    <br />
                   </div>
                 </div>
-                <div className="w-full  md:w-1/2 px-4">
-                  <div className="img ">
+                <div className="w-full flex justify-center items-center  md:w-1/2 px-4">
+                  <div className="img w-3/4">
                     <Image
                       src={hero3}
                       alt="hero3"
-                      height={400}
-                      width={400}
+                      height={900}
+                      width={900}
 
-                      className="w-full"
+                      className="w-full md:mt-0 mt-20"
                     />
                   </div>
                 </div>
@@ -73,6 +73,7 @@ const page = () => {
           </section>
         </main>
       </div>
+      <br /><br/> <br/>
       <div id='about' className='w-full h-screen flex justify-center items-center p-4 mb-8'>
         <div className='md:w-4/6 w-full  md:h-4/6  flex flex-col md:flex-row bg-blue-100 rounded-3xl'>
           {/* Image Section */}
@@ -101,6 +102,7 @@ const page = () => {
           </div>
         </div>
       </div>
+      <br /><br />
       <div className='mt-20'>
         <h2 className='md:text-5xl text-3xl font-bold italic mb-20 md:mb-0 text-center'>
           Epic Prizes for Epic Minds: Are You Ready?
@@ -120,7 +122,7 @@ const page = () => {
               </div>
               <div className='w-4/5 h-96 flex justify-center items-end bg-yellow-200 border-4 border-black rounded-b-3xl md:h-5/6'>
                 <div className='w-5/6 h-4/5 flex flex-col items-center  justify-center rounded-lg'>
-                  <h3 className='text-3xl font-bold md:mr-0 mr-4 md:mt-0 mt-5 mb-3 md:mb-7'>🏆First Prize</h3>
+                  <h3 className='md:text-3xl text-2xl font-bold md:mr-0 mr-4 md:mt-0 mt-5 mb-3 md:mb-7'>🏆First Prize</h3>
                   <p className='text-lg  font-semibold'>Total Worth: ₹2,100</p>
                   <p className='text-center mt-9'>
                     Claim the first prize and showcase your coding excellence. Unlock rewards and prove yourself among the best competitors!
@@ -142,7 +144,7 @@ const page = () => {
               </div>
               <div className='w-4/5 h-96 flex justify-center items-end bg-gray-200 border-4 border-black rounded-b-3xl md:h-5/6'>
                 <div className='w-5/6 h-4/5 flex flex-col items-center justify-center rounded-lg'>
-                  <h3 className='md:text-3xl text-[28px] mr-1 md:mt-0 mt-5 font-bold mb-3 md:mb-10'>🥈Second Prize</h3>
+                  <h3 className='md:text-3xl text-2xl mr-1 md:mt-0 mt-5 font-bold mb-3 md:mb-10'>🥈Second Prize</h3>
                   <p className='text-lg mb-2 font-semibold'>Total Worth: ₹1,100</p>
                   <p className='text-center mt-8'>
                     Secure the runner-up spot with your coding skills. Exciting rewards await you, along with recognition and honor!
@@ -164,7 +166,7 @@ const page = () => {
               </div>
               <div className='w-4/5 h-96 flex justify-center items-end bg-stone-400 border-4 border-black rounded-b-3xl md:h-5/6'>
                 <div className='w-5/6 h-4/5 flex flex-col items-center justify-center rounded-lg'>
-                  <h3 className='text-3xl font-bold md:mr-0 mr-4 md:mt-0 mt-9 mb-8'>🥉 Third Prize</h3>
+                  <h3 className='md:text-3xl text-2xl font-bold md:mr-0 mr-4 md:mt-0 mt-9 mb-8'>🥉 Third Prize</h3>
                   <p className='text-lg font-semibold'>Total Worth: ₹501</p>
                   <p className='text-center mt-8'>
                     Don&apos;t miss out on the third prize. A fantastic opportunity to win while gaining valuable coding experience and rewards!
@@ -175,8 +177,9 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className='md:mt-0 md:mb-16 mt-[500px]'>
-        <h1 className='text-5xl text-center font-bold mb-12 italic'>Event TimeLine</h1>
+      <br /><br />
+      <div className='md:mt-0 md:mb-16 mt-[700px]'>
+        <h1 className='md:text-5xl text-3xl text-center font-bold mb-12 italic'>Event TimeLine</h1>
         <ul>
           <li style={{ '--accent-color': '#41516C' } as React.CSSProperties}>
             <div className="date">1:30 PM - 2:00 PM</div>
