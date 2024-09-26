@@ -16,7 +16,7 @@ const page = () => {
 
   return (
     <div className='bg-gray-100 h-full'>
-      <div className='w-full md:h-24 h-20 flex justify-between'>
+      <div className='w-full md:h-20 h-20 flex justify-between'>
         <Image src={weblogo}
           alt="weblogo"
           className=" md:ml-12  ml-6"
