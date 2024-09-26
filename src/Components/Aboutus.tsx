@@ -4,7 +4,7 @@ import aboutus from '../pages/aboutus1.png';
 
 const Aboutus = () => {
   return (
-    <div className='w-full h-screen flex justify-center items-center p-4 mb-8'>
+    <div id='about' className='w-full h-screen flex justify-center items-center p-4 mb-8'>
       <div className='md:w-4/6 w-full  md:h-4/6  flex flex-col md:flex-row bg-blue-100 rounded-3xl'>
         {/* Image Section */}
         <div className='w-full md:w-1/2 h-full flex justify-center items-center'>
