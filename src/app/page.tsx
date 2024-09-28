@@ -46,13 +46,14 @@ const page = () => {
                     <p className="text-xl mt-4 px-12 py-3 text-gray-500">
                       Compete in AlgoThon, solve DSA challenges, win prizes, and learn FetchAI insights from Mr. Dev Chauhan. Join us!
                     </p>
+                    <br/>
                     <Link href="#about" className="btn btn-primary bg-[#3468ec] font-mono  text-white hover:bg-[#3468ec] ml-12 rounded-full md:px-6 px-3 py-3 mt-4">
                       Explore More
                     </Link>
-                    <button className="btn border-2 border-[#3468ec] font-mono ml-4 text-black hover:bg-[#3468ec] hover:text-white rounded-full md:px-6 py-3 px-2  mt-4">
+                    <Link href="https://unstop.com/o/fHgIsiG" className="btn border-2 border-[#3468ec] font-mono ml-4 text-black hover:bg-[#3468ec] hover:text-white rounded-full md:px-6 py-3 px-2  mt-4">
                       Register
                       {/* <IoMdArrowForward /> */}
-                    </button>
+                    </Link>
                     <br />
                   </div>
                 </div>
